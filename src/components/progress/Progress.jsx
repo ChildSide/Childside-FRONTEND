@@ -1,8 +1,5 @@
 import React from 'react'
 import './progress.scss';
-import StepProgressBar from "react-step-progress";
-// import the stylesheet
-import "react-step-progress/dist/index.css";
 
 export default function Progress() {
   const step1Content = <h1>Complaint is filed</h1>;
@@ -19,7 +16,7 @@ export default function Progress() {
   }
   return (
     <div className="App">
-      <StepProgressBar
+      {/* <StepProgressBar
         startingStep={2}
         steps={[
           {
@@ -51,7 +48,7 @@ export default function Progress() {
             content: step3Content
           }
         ]}
-      />
+      /> */}
     </div>
   );
 }
